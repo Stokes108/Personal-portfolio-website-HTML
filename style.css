@@ -1,0 +1,208 @@
+*{
+    /* border:1px solid red; */
+}
+
+@font-face {
+    font-family: Langdon;
+    src: url(Fonts/tincush-0980.ttf);
+}
+
+@font-face {
+    font-family: Regular ;
+    src: url(Fonts/Assazinc.ttf);
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #4B5A46;
+    color: #9898A0;
+    text-align: center;
+    font-family: Regular;
+    text-shadow: 0 0 3px black;
+}
+
+
+.nav-bar{
+    background-color: #4B5A46;
+    color: #9898A0;
+
+    position:fixed;
+    top:0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    font-size:30px;
+    padding-top:1%;
+
+}
+
+.nav-brand{
+    width:20%;
+}
+
+.nav-menu{
+    width:100%;
+}
+
+ul{
+    margin:0;
+    width:100%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+a{
+    color:#9898A0;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FF9F55;
+}
+
+.hero-img-container{
+    margin:10% auto 3% auto ;
+    width:70%;
+}
+
+.hero-img{
+    width:100%;
+    height:700px;
+
+    object-fit: contain;
+
+}
+
+.title{
+
+    margin:0 auto 3% auto;
+    width:100%;
+    font-family: Langdon ;
+    font-size:64px;
+    text-shadow: 5px 5px 0 black;
+}
+
+.fam-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:3%;
+}
+
+.fam-img{
+    width:60%;
+    object-fit: contain;
+}
+
+.poem{
+    font-size: 24px;
+    width:100%;
+}
+
+.poem-container{
+    width:50%;
+}
+
+.content{
+    font-size:24px;
+}
+
+.header{
+    font-size:48px;
+    margin:0;
+
+}
+
+.phase-img{
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+.phases-img-container{
+    margin:3%;
+    display:grid;
+    grid-gap:2%;
+    grid-template-columns: repeat(3, 33%);
+    /* grid-template-rows:400px; */
+}
+
+#phase-img1{
+    background-image: url(photos/Main-page/karate.jpg);
+}
+
+#phase-img2{
+    background-image: url(photos/Main-page/LHS.jpg);
+}
+
+#phase-img3{
+    background-image: url(photos/Main-page/Krishna-tat.jpg);
+}
+
+.phases-text{
+    position:relative;
+    top:90%;
+    background-color: rgba(64, 63, 63, 0.9);
+    width:100%;
+    height:10%;
+}
+
+.subphase-title{
+    margin-top:2%;
+}
+
+.contact-container{
+    display:grid;
+    justify-content:center;
+    grid-template-columns: repeat(2, 20%);
+    grid-gap:20px;
+    margin-bottom:5%;
+    font-family:Regular;
+    font-size:24px;
+}
+
+.contact-title{
+    margin:0 0 3% 0;
+    font-size:48px;
+}
+
+#email-label, #email, #message, #submit-button, #message-label{
+    grid-column: 1/3;
+}
+
+#submit-button{
+    padding: 10px 0;
+    background-color: #4B5A46;
+    color:#9898A0;
+    font-family:Regular;
+    font-size:24px;
+    border:1px solid #9898A0;
+}
+
+#message{
+    padding-left:1%;
+
+}
+
+#submit-button:hover{
+
+    background-color: #9898A0;
+    color:#4B5A46;
+    
+}
+
+.name{
+    padding:5px 0;
+    background-color: whitesmoke;
+    border:none;
+    padding-left:1%;
+
+}
+
+
